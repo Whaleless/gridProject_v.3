@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    min-width: 1240px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #40393B;
+    line-height: 22.63px;
+    background-color: #E5E5E5;
+}
+
+.content {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+
+.header-logo {
+    margin-top: 8px;
+}
+
+.nav-end {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    padding: 8px 5px 5px 5px;
+    margin-left: 51px;
+}
+
+a {
+    text-decoration: none;
+    color: #40393B;
+    padding: 5px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+.title-container {
+    width: 100%;
+    height: 350px;
+    background-image: url("images/back.png");
+    margin-bottom: 50px;
+}
+
+.title-value {
+    line-height: 350px;
+    margin: 0;
+    margin-left: 110px;
+    font-size: 62px;
+    font-weight: 300;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.invisible {
+    display: none;
+}
+
+.filters-hub {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+    margin-bottom: 50px;
+}
+
+.filters {
+    border: 1px solid #40393B;
+    height: 57px;
+    padding: 15px;
+    background-color: #E5E5E5;
+    background: url("images/down.svg") no-repeat 96% 50%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+.products-catalog {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px 50px;
+    margin-bottom: 80px;
+}
+
+.product {
+    background: white;
+    padding: 30px;
+    display: grid;
+    justify-items: center;
+}
+
+.product-photo {
+    max-width: 100%;
+    height: auto;
+    grid-row-start: 1;
+    margin-bottom: 15px;
+}
+
+.product-title {
+    font-weight: 300;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 22px;
+    line-height: 27.65px;
+    margin: 0 0 5px 0;
+}
+
+.product-price {
+    margin: 0 0 20px 0;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 22.63px;
+}
+
+.product-add-to-cart {
+    width: 175px;
+    height: 45px;
+    color: #FAFAFA;
+    background: #59313B;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 20.11px;
+    border: 0;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.product-add-to-cart:hover {
+    background: #3d2128;
+}
+
+.product-add-to-cart:active {
+    background: #723e4b;
+}
+
+.button-more {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: 378px;
+    height: 66px;
+    border: 1px solid #40393B;
+    background: transparent;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    background: #DED9D5;
+    display: flex;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.nav-punkt {
+    color: #40393B;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
